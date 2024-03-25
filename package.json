@@ -1,6 +1,6 @@
 {
 	"name": "@uappx/ffmpeg-desktop",
-	"version": "5.2.1",
+	"version": "5.2.2",
 	"description": "ffmpeg binaries for macOS, Linux and Windows",
 	"scripts": {
 		"install": "node install.js",
