@@ -1,6 +1,6 @@
 {
   "name": "@uappx/ffmpeg-desktop",
-  "version": "5.6.2",
+  "version": "5.6.3",
   "description": "ffmpeg binaries for macOS, Linux and Windows",
   "@uappx/ffmpeg-desktop": {
     "binary-path-env-var": "FFMPEG_BIN",

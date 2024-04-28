@@ -23,7 +23,7 @@ if (process.env[BINARY_PATH_ENV_VAR]) {
     darwin: ['x64', 'arm64'],
     freebsd: ['x64'],
     linux: ['x64', 'ia32', 'arm64', 'arm'],
-    win32: ['x64', 'ia32']
+    win32: ['x64', 'ia32'],
   })
 
   var platform = process.env.npm_config_platform || os.platform()
@@ -38,5 +38,5 @@ if (process.env[BINARY_PATH_ENV_VAR]) {
     binaryPath = null
   }
 
-  module.exports = binaryPath
+  module.exports = binaryPath.replace(/\.asar([\\/])/, '.asar.unpacked$1')
 }
